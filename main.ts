@@ -1,3 +1,6 @@
-input.onPinPressed(TouchPin.P0, function () {
+/**
+ * Press Button A
+ */
+input.onButtonPressed(Button.A, function () {
     basic.showString("" + (input.temperature()))
 })
